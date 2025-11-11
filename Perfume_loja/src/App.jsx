@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <div>
-        {produtos.map((produtos) => (<ProductCard
+        {produtos.produtos.map((produtos) => (<ProductCard
         key={produtos.id}
         produto={produtos}/>))}
       </div>

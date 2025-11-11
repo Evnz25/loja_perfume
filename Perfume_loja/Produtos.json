@@ -5,14 +5,16 @@
       "nome": "Kaik",
       "especificacao": "masculino",
       "fabricante": "boticario",
-      "preco": 120
+      "preco": 120,
+      "imagem": "./src/assets/perfume_um.png"
     },
     {
       "id": 2,
       "nome": "CheRu",
       "especificacao": "masculino",
       "fabricante": "Original",
-      "preco": 145
+      "preco": 145,
+      "imagem": "./src/assets/perfume_dois.png"
     }
   ]
 }
