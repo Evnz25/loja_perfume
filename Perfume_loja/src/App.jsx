@@ -1,21 +1,17 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Components/Navbar";
-import produtos from "../Produtos.json";
-import ProductCard from "./Components/ProductCard";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Homepage from "./Pages/Homepage";
+import Productpage from "./Pages/Productpage";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        {produtos.produtos.map((produto) => (
-          <div class="col" key={produto.id}>
-            <ProductCard key={produto.id} produto={produto} />
-          </div>
-        ))}
-      </div>
-    </>
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/product/:id" element={<Productpage />} />
+      </Routes>
+    </Router>
+);
 }
 
 export default App;

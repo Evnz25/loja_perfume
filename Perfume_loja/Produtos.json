@@ -5,40 +5,72 @@
       "nome": "Perfume Rabanne Invictus Masculino",
       "especificacao": "Parfum 100ml",
       "fabricante": "Rabanne",
+      "descricao": "Ele é o homem em sua plena força, o herói absoluto: Invictus. Desafiado e abençoado pelos deuses, ele tem cheiro de vitória. O Paco Rabanne Invictus Eau de Toilette é uma combinação arrebatadora de frescor penetrante e sensualidade animal. Duas forças que nada (nem ninguém) consegue resistir.",
       "preco": 661.9,
-      "imagem": "./src/assets/rabanne_invictus_um.png"
+      "imagem": "../src/assets/rabanne_invictus_um.png"
     },
     {
       "id": 2,
       "nome": "Perfume Giorgio Armani Acqua di Gioia Intense",
       "especificacao": "Eau de Parfum 100ml",
       "fabricante": "Giorgio Armani",
+      "descricao": "Descubra o novo Acqua di Gioia Eau de Parfum Intense, uma intensidade cintilante que mistura notas cítricas vibrantes e frutas vermelhas exuberantes, iluminadas por uma dupla florescente de pétalas de rosa delicadas e jasmim, capturando o clima de um verão italiano eterno. Acqua Di Gioia Eau de Parfum Intense é um convite encantador de Giorgio Armani para mergulhar na luz do sol sem limites e nos mares azul-turquesa do Mediterrâneo.",
       "preco": 769.9,
-      "imagem": "./src/assets/giorgio_armani_acqua_gioia.png.png"
+      "imagem": "../src/assets/giorgio_armani_acqua_gioia.png.png"
     },
     {
       "id": 3,
       "nome": "Perfume Rabanne Black Xs Masculino",
       "especificacao": "Eau de Toilette 50ml",
       "fabricante": "Rabanne",
+      "descricao": "Marcante e sedutor, o perfume Black XS masculino de Rabanne é perfeito para quem deseja se destacar na multidão com irreverência, sensualidade e poder. Trata-se de um Eau de Toilette marcante que combina elementos orientais e amadeirados, projetado para o homem moderno e confiante.",
       "preco": 345.9,
-      "imagem": "./src/assets/rabanne_black_masculino.png"
+      "imagem": "../src/assets/rabanne_black_masculino.png"
     },
     {
       "id": 4,
       "nome": "Perfume Ralph Lauren Polo Black Masculino",
       "especificacao": "Eau de Toilette 125ml",
       "fabricante": "Ralph Lauren",
+      "descricao": "Polo Black é um perfume feito para homens seguros e sofisticados, seguros e modernos. O perfume Polo Black possui estilo elegante e contemporâneo para um homem com atitude urbana e confiante. Uma fragrância que explora prazeres e paixões de um homem, elegantemente ancorado na tradição, mas com frescor contemporâneo.",
       "preco": 633.9,
-      "imagem": "./src/assets/ralph_lauren_black.png"
+      "imagem": "../src/assets/ralph_lauren_black.png"
     },
     {
       "id": 5,
       "nome": "Perfume Giorgio Armani My Way Nectar Feminino",
       "especificacao": "Eau de Parfum 30ml",
       "fabricante": "Giorgio Armani",
+      "descricao": "Descubra a essência da elegância com o Perfume Giorgio Armani My Way Nectar Feminino Eau de Parfum, uma fragrância que personifica a sofisticação moderna com um toque irresistível de doçura floral. ",
       "preco": 501.9,
-      "imagem": "./src/assets/my_way_nectar.png"
+      "imagem": "../src/assets/my_way_nectar.png"
+    },
+    {
+      "id": 6,
+      "nome": "Perfume Giorgio Armani My Way Nectar Feminino",
+      "especificacao": "Eau de Parfum 30ml",
+      "fabricante": "Giorgio Armani",
+      "descricao": "Descubra a essência da elegância com o Perfume Giorgio Armani My Way Nectar Feminino Eau de Parfum, uma fragrância que personifica a sofisticação moderna com um toque irresistível de doçura floral. ",
+      "preco": 501.9,
+      "imagem": "../src/assets/my_way_nectar.png"
+    },
+        {
+      "id": 7,
+      "nome": "Perfume Giorgio Armani My Way Nectar Feminino",
+      "especificacao": "Eau de Parfum 30ml",
+      "fabricante": "Giorgio Armani",
+      "descricao": "Descubra a essência da elegância com o Perfume Giorgio Armani My Way Nectar Feminino Eau de Parfum, uma fragrância que personifica a sofisticação moderna com um toque irresistível de doçura floral. ",
+      "preco": 501.9,
+      "imagem": "../src/assets/my_way_nectar.png"
+    },
+        {
+      "id": 8,
+      "nome": "Perfume Giorgio Armani My Way Nectar Feminino",
+      "especificacao": "Eau de Parfum 30ml",
+      "fabricante": "Giorgio Armani",
+      "descricao": "Descubra a essência da elegância com o Perfume Giorgio Armani My Way Nectar Feminino Eau de Parfum, uma fragrância que personifica a sofisticação moderna com um toque irresistível de doçura floral. ",
+      "preco": 501.9,
+      "imagem": "../src/assets/my_way_nectar.png"
     }
   ]
 }
