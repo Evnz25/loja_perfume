@@ -2,19 +2,43 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Kaik",
-      "especificacao": "masculino",
-      "fabricante": "boticario",
-      "preco": 120,
-      "imagem": "./src/assets/perfume_um.png"
+      "nome": "Perfume Rabanne Invictus Masculino",
+      "especificacao": "Parfum 100ml",
+      "fabricante": "Rabanne",
+      "preco": 661.9,
+      "imagem": "./src/assets/rabanne_invictus_um.png"
     },
     {
       "id": 2,
-      "nome": "CheRu",
-      "especificacao": "masculino",
-      "fabricante": "Original",
-      "preco": 145,
-      "imagem": "./src/assets/perfume_dois.png"
+      "nome": "Perfume Giorgio Armani Acqua di Gioia Intense",
+      "especificacao": "Eau de Parfum 100ml",
+      "fabricante": "Giorgio Armani",
+      "preco": 769.9,
+      "imagem": "./src/assets/giorgio_armani_acqua_gioia.png.png"
+    },
+    {
+      "id": 3,
+      "nome": "Perfume Rabanne Black Xs Masculino",
+      "especificacao": "Eau de Toilette 50ml",
+      "fabricante": "Rabanne",
+      "preco": 345.9,
+      "imagem": "./src/assets/rabanne_black_masculino.png"
+    },
+    {
+      "id": 4,
+      "nome": "Perfume Ralph Lauren Polo Black Masculino",
+      "especificacao": "Eau de Toilette 125ml",
+      "fabricante": "Ralph Lauren",
+      "preco": 633.9,
+      "imagem": "./src/assets/ralph_lauren_black.png"
+    },
+    {
+      "id": 5,
+      "nome": "Perfume Giorgio Armani My Way Nectar Feminino",
+      "especificacao": "Eau de Parfum 30ml",
+      "fabricante": "Giorgio Armani",
+      "preco": 501.9,
+      "imagem": "./src/assets/my_way_nectar.png"
     }
   ]
 }
