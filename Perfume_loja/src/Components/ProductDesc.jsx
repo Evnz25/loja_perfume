@@ -62,7 +62,9 @@ function ProductDesc({ produto }) {
             <p className="mb-0">
               <strong>Cidade:</strong> {endereco.localidade} - {endereco.uf}
             </p>
-            <p className="mb-0">Entrega em 7 dias</p>
+            <p className="mb-0">
+              <strong>Valor: R${produto.preco + 50}</strong>
+            </p>
             <a
               className="btn btn-primary"
               onClick={() => alert("Compra realizada!")}
