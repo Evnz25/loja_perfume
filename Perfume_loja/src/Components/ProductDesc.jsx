@@ -33,13 +33,7 @@ function ProductDesc({ produto }) {
               <h6 className="card-especificacao">{produto.especificacao}</h6>
               <h6 className="card-fabricante">{produto.fabricante}</h6>
               <p className="card-text">{produto.descricao}</p>
-              <p className="card-text">{produto.preco}</p>
-              <a
-                className="btn btn-primary"
-                onClick={() => navigate(`/product/${produto.id}`)}
-              >
-                Comprar
-              </a>
+              <p className="card-text">R${produto.preco}</p>
             </div>
           </div>
         </div>
@@ -48,8 +42,8 @@ function ProductDesc({ produto }) {
             type="text"
             className="form-control"
             placeholder="Seu CEP (só números)"
-            value={cepInput} // O valor vem do estado
-            onChange={(e) => setCepInput(e.target.value)} // O estado é atualizado a cada dígito
+            value={cepInput}
+            onChange={(e) => setCepInput(e.target.value)}
           />
           <button
             className="btn btn-primary"
@@ -68,6 +62,13 @@ function ProductDesc({ produto }) {
             <p className="mb-0">
               <strong>Cidade:</strong> {endereco.localidade} - {endereco.uf}
             </p>
+            <p className="mb-0">Entrega em 7 dias</p>
+            <a
+              className="btn btn-primary"
+              onClick={() => alert("Compra realizada!")}
+            >
+              Comprar
+            </a>
           </div>
         )}
       </div>
