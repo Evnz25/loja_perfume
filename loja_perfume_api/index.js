@@ -19,10 +19,9 @@ if (!fs.existsSync("./uploads")) {
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "uploads/"); // Pasta onde as fotos serão salvas no servidor
+    cb(null, "uploads/");
   },
   filename: function (req, file, cb) {
-    // Define um nome único para o arquivo usando a data atual + extensão original
     const uniqueSuffix = Date.now() + "-" + Math.round(Math.random() * 1e9);
     cb(null, uniqueSuffix + path.extname(file.originalname));
   },
@@ -48,14 +47,12 @@ const Perfume = mongoose.model("Perfume", PerfumeSchema);
 
 app.post("/api/produtos", upload.single("imagem"), async (req, res) => {
   try {
-    // Se o upload deu certo, o multer coloca os dados do arquivo em req.file
     if (!req.file) {
       return res
         .status(400)
         .json({ message: "A imagem do produto é obrigatória." });
     }
 
-    // Monta a URL pública onde a imagem pode ser acessada
     const urlImagem = `http://localhost:3000/uploads/${req.file.filename}`;
 
     const novoPerfume = new Perfume({
@@ -64,7 +61,7 @@ app.post("/api/produtos", upload.single("imagem"), async (req, res) => {
       fabricante: req.body.fabricante,
       descricao: req.body.descricao,
       preco: req.body.preco,
-      imagem: urlImagem, // Salva a URL gerada no banco
+      imagem: urlImagem,
     });
 
     const dataSave = await novoPerfume.save();

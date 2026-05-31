@@ -105,7 +105,7 @@ function ProductRegister() {
 
               <div className="row mb-3">
                 <div className="col-md-6">
-                  <label className="form-label">Fabricante / Marca</label>
+                  <label className="form-label">Fabricante</label>
                   <input
                     type="text"
                     className="form-control"
@@ -116,9 +116,7 @@ function ProductRegister() {
                   />
                 </div>
                 <div className="col-md-6">
-                  <label className="form-label">
-                    Especificação (Ex: 100ml, Eau de Parfum)
-                  </label>
+                  <label className="form-label">Especificação</label>
                   <input
                     type="text"
                     className="form-control"
@@ -145,13 +143,12 @@ function ProductRegister() {
                 </div>
                 <div className="col-md-6">
                   <label className="form-label">Imagem do Produto</label>
-                  {/* Mudança principal: type="file" */}
                   <input
                     type="file"
                     id="imagemInput"
                     className="form-control"
                     name="imagem"
-                    accept="image/*" // Aceita apenas arquivos de imagem
+                    accept="image/*"
                     onChange={handleFileChange}
                     required
                   />
